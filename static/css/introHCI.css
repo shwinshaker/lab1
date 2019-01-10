@@ -32,3 +32,50 @@ body {
      position: absolute;
      z-index: -1;
 }
+
+.project {
+     padding: 15px;
+     margin: 10vw;
+     border: 2px;
+     border-radius: 0.5em;
+     background-color: #eee;
+     text-align: center;
+     box-shadow: 2px 2px 4px #ccc;
+}
+
+.project a {
+     text-decoration: none;
+}
+
+.project p {
+     display: inline-block;
+     color: white;
+     padding: 12px 10px 12px 10px;
+     border: 1px;
+     border-radius: 5px;
+     background-color: #999;
+     margin-bottom: 10px;
+     margin-top: 20px;
+     width: 20%;
+     font-family: Helvetica, sans-serif;
+     font-weight: bold;
+}
+
+.project p:hover {
+     background-color: #ccc;
+     color: black;
+}
+
+/*.project p::before {
+     content: "before";
+     clear: both;
+     margin: 10px;
+}*/
+
+.thumbnail {
+     margin: 0;
+     width: 100%;
+     /*margin: ;*/
+     border-radius: 1em;
+     
+}
